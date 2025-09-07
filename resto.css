@@ -6,7 +6,7 @@ body {
 
 .awal img {
    height: 110vh;
-   width: 99.2vw;
+   width: 98.7vw;
 }
 
 .navbar {
@@ -42,12 +42,12 @@ body {
     background-color:#F3E9DC;
     border: 1px solid #000000;
     border-radius: 2rem;
-    width: 1300px;
-    height: 400px;
+    width: 1150px;
+    height: 300px;
     position: relative;
     bottom: 0rem;
-    left: 380px; 
-    top: 300px;
+    left: 65px; 
+    top: 140px;
 }
 
 .gmbr {
@@ -73,24 +73,21 @@ body {
     bottom: 53rem;
 }
 
-.rectangle-3 {
+/* .rectangle-3 {
     background-color:#F3E9DC;
     border-radius: 1.5rem;
     width: 18vw;
     height: 30vh;
     position:absolute;
     left: 100px;
-}
+} */
 
 .foto {
     display: flex;
-    justify-content: center;
-    gap: 30px;
-    align-items: center;
-    padding: 1;
-    width: 150px;
-    height: auto;
-    left: 150px;
+    flex-wrap: wrap;
+    gap: 7rem;
+    margin-left: 16rem;
+    margin-top: 5rem;
 }
 
 .judulrec {
@@ -170,3 +167,5 @@ body {
         text-align: center;
         padding-top: 2rem;
     }
+
+    
